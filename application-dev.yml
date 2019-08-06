@@ -4,10 +4,10 @@ server:
     min-spare-threads: 50 # Minimum amount of worker threads
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
+    url: jdbc:mysql://192.168.83.235:35306/cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: root
+    password: dascom
     max-idle: 10
     min-idle: 5
     test-on-borrow: false
@@ -30,8 +30,8 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     port: 5672
-    username: yukong
-    password: x19961010
+    username: guest
+    password: guest
   http:
     multipart:
       max-file-size: 1000MB
