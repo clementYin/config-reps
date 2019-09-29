@@ -4,7 +4,7 @@ server:
     min-spare-threads: 50 # Minimum amount of worker threads
 spring:
   datasource:
-    url: jdbc:mysql://192.168.83.235:35306/cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
+    url: jdbc:mysql://192.168.92.127:35306/cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: dascom
